@@ -1,0 +1,962 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: TEC Elementor Single Builder\n"
+"POT-Creation-Date: 2022-01-01 10:07+0330\n"
+"PO-Revision-Date: 2021-10-21 14:38+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: tec-elementor-single-builder.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/class-tsb-admin.php:72 tec-elementor-single-builder.php:155
+#: tec-elementor-single-builder.php:278
+msgid "TEC Single Builder"
+msgstr ""
+
+#: classes/class-tsb-admin.php:73
+msgid "Dashboard"
+msgstr ""
+
+#: classes/class-tsb-admin.php:74
+msgid "All Builders"
+msgstr ""
+
+#: classes/class-tsb-admin.php:75
+msgid "Add New"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:82
+#, php-format
+msgctxt "post type general name"
+msgid "%s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:83
+#, php-format
+msgctxt "post type singular name"
+msgid "%s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:85
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:86
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:87
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:88
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:89
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:90
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:91
+#, php-format
+msgid "No %s Found"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:92
+#, php-format
+msgid "No %s Found In Trash"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:129
+#, php-format
+msgid "%3$s updated. %sView %4$s%s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:130
+msgid "Custom field updated."
+msgstr ""
+
+#: classes/class-tsb-post-type.php:131
+msgid "Custom field deleted."
+msgstr ""
+
+#: classes/class-tsb-post-type.php:132
+#, php-format
+msgid "%s updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: classes/class-tsb-post-type.php:134
+#, php-format
+msgid "%s restored to revision from %s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:135
+#, php-format
+msgid "%1$s published. %3$sView %2$s%4$s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:136
+#, php-format
+msgid "%s saved."
+msgstr ""
+
+#: classes/class-tsb-post-type.php:137
+#, php-format
+msgid "%s submitted. %sPreview %s%s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:138
+#, php-format
+msgid "%s scheduled for: %1$s. %2$sPreview %s%3$s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:140
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:141
+#, php-format
+msgid "%s draft updated. %sPreview %s%s"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:154
+msgid "Thing Details"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:243
+msgid "URL"
+msgstr ""
+
+#: classes/class-tsb-post-type.php:244
+msgid ""
+"Enter a URL that applies to this thing (for example: http://domain.com/)."
+msgstr ""
+
+#: classes/class-tsb-settings.php:49 pages/settings.php:33
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: pages/dashboard.php:4 pages/settings.php:23
+msgid "TEC Elementor Single Builder"
+msgstr ""
+
+#: pages/dashboard.php:5 pages/settings.php:24
+msgid "Version"
+msgstr ""
+
+#: pages/dashboard.php:14
+msgid "Getting Started"
+msgstr ""
+
+#: pages/settings.php:39
+msgid "Select builder to display event:"
+msgstr ""
+
+#: pages/settings.php:41 pages/settings.php:51
+msgid "None"
+msgstr ""
+
+#: pages/settings.php:49
+msgid "Select Event data to display in elementor edit page:"
+msgstr ""
+
+#: pages/settings.php:60
+msgid "Save Changes"
+msgstr ""
+
+#: tec-elementor-single-builder.php:226 tec-elementor-single-builder.php:235
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: widgets/categories.php:38
+msgid "Event Categories"
+msgstr ""
+
+#: widgets/categories.php:81 widgets/tags.php:82
+msgid "Select Icon"
+msgstr ""
+
+#: widgets/categories.php:89 widgets/categories.php:326 widgets/cost.php:96
+#: widgets/cost.php:300 widgets/export-google.php:86 widgets/export-ical.php:86
+#: widgets/location.php:99 widgets/location.php:145 widgets/location.php:218
+#: widgets/location.php:264 widgets/location.php:310 widgets/notice.php:87
+#: widgets/organizer.php:99 widgets/organizer.php:146 widgets/organizer.php:192
+#: widgets/organizer.php:238 widgets/share.php:108 widgets/share.php:135
+#: widgets/start-end.php:109 widgets/start-end.php:291 widgets/tags.php:90
+#: widgets/tags.php:328 widgets/time.php:88
+msgid "Icon"
+msgstr ""
+
+#: widgets/categories.php:103 widgets/tags.php:104
+msgid "Label"
+msgstr ""
+
+#: widgets/categories.php:112 widgets/categories.php:207
+#: widgets/categories.php:335 widgets/content.php:88 widgets/cost.php:119
+#: widgets/cost.php:214 widgets/export-google.php:128
+#: widgets/export-google.php:294 widgets/export-ical.php:128
+#: widgets/export-ical.php:294 widgets/location.php:1002 widgets/notice.php:109
+#: widgets/related.php:170 widgets/related.php:328 widgets/related.php:422
+#: widgets/related.php:516 widgets/rsvp.php:116 widgets/rsvp.php:210
+#: widgets/rsvp.php:304 widgets/rsvp.php:398 widgets/share.php:188
+#: widgets/start-end.php:132 widgets/start-end.php:216
+#: widgets/start-end.php:300 widgets/tags.php:113 widgets/tags.php:209
+#: widgets/tags.php:337 widgets/ticket.php:116 widgets/ticket.php:210
+#: widgets/ticket.php:304 widgets/time.php:111 widgets/title.php:88
+msgid "Typography"
+msgstr ""
+
+#: widgets/categories.php:120 widgets/categories.php:215
+#: widgets/categories.php:343 widgets/export-google.php:163
+#: widgets/export-google.php:329 widgets/export-ical.php:163
+#: widgets/export-ical.php:329 widgets/location.php:1166
+#: widgets/related.php:178 widgets/related.php:336 widgets/related.php:430
+#: widgets/related.php:524 widgets/rsvp.php:124 widgets/rsvp.php:218
+#: widgets/rsvp.php:312 widgets/rsvp.php:406 widgets/share.php:196
+#: widgets/share.php:293 widgets/share.php:429 widgets/start-end.php:140
+#: widgets/start-end.php:224 widgets/start-end.php:308 widgets/tags.php:121
+#: widgets/tags.php:217 widgets/tags.php:345 widgets/ticket.php:124
+#: widgets/ticket.php:218 widgets/ticket.php:312 widgets/time.php:119
+msgid "Color"
+msgstr ""
+
+#: widgets/categories.php:131 widgets/categories.php:236
+#: widgets/categories.php:375 widgets/content.php:118 widgets/cost.php:149
+#: widgets/cost.php:244 widgets/cost.php:330 widgets/export-google.php:184
+#: widgets/export-google.php:351 widgets/export-ical.php:184
+#: widgets/export-ical.php:351 widgets/featuredImage.php:86
+#: widgets/location.php:1032 widgets/location.php:1188 widgets/notice.php:149
+#: widgets/related.php:199 widgets/related.php:263 widgets/related.php:357
+#: widgets/related.php:451 widgets/related.php:545 widgets/rsvp.php:145
+#: widgets/rsvp.php:239 widgets/rsvp.php:333 widgets/rsvp.php:427
+#: widgets/share.php:207 widgets/share.php:314 widgets/share.php:450
+#: widgets/start-end.php:151 widgets/start-end.php:235
+#: widgets/start-end.php:319 widgets/tags.php:132 widgets/tags.php:238
+#: widgets/tags.php:377 widgets/ticket.php:145 widgets/ticket.php:239
+#: widgets/ticket.php:333 widgets/time.php:141 widgets/title.php:118
+msgid "Padding"
+msgstr ""
+
+#: widgets/categories.php:143 widgets/categories.php:248
+#: widgets/categories.php:387 widgets/content.php:130 widgets/cost.php:161
+#: widgets/cost.php:256 widgets/cost.php:342 widgets/export-google.php:196
+#: widgets/export-google.php:363 widgets/export-ical.php:196
+#: widgets/export-ical.php:363 widgets/featuredImage.php:98
+#: widgets/location.php:1044 widgets/location.php:1200 widgets/notice.php:161
+#: widgets/related.php:211 widgets/related.php:275 widgets/related.php:369
+#: widgets/related.php:463 widgets/related.php:557 widgets/rsvp.php:157
+#: widgets/rsvp.php:251 widgets/rsvp.php:345 widgets/rsvp.php:439
+#: widgets/share.php:219 widgets/share.php:326 widgets/share.php:462
+#: widgets/start-end.php:163 widgets/start-end.php:247
+#: widgets/start-end.php:331 widgets/tags.php:144 widgets/tags.php:250
+#: widgets/tags.php:389 widgets/ticket.php:157 widgets/ticket.php:251
+#: widgets/ticket.php:345 widgets/time.php:153 widgets/title.php:130
+msgid "Margin"
+msgstr ""
+
+#: widgets/categories.php:156 widgets/categories.php:261
+#: widgets/categories.php:400 widgets/content.php:143 widgets/cost.php:174
+#: widgets/cost.php:269 widgets/cost.php:355 widgets/export-google.php:209
+#: widgets/export-google.php:376 widgets/export-ical.php:209
+#: widgets/export-ical.php:376 widgets/featuredImage.php:111
+#: widgets/location.php:1057 widgets/location.php:1213 widgets/notice.php:186
+#: widgets/related.php:224 widgets/related.php:288 widgets/related.php:382
+#: widgets/related.php:476 widgets/related.php:570 widgets/rsvp.php:170
+#: widgets/rsvp.php:264 widgets/rsvp.php:358 widgets/rsvp.php:452
+#: widgets/share.php:339 widgets/share.php:475 widgets/start-end.php:176
+#: widgets/start-end.php:260 widgets/start-end.php:344 widgets/tags.php:157
+#: widgets/tags.php:263 widgets/tags.php:402 widgets/ticket.php:170
+#: widgets/ticket.php:264 widgets/ticket.php:358 widgets/time.php:166
+#: widgets/title.php:143
+msgid "Border"
+msgstr ""
+
+#: widgets/categories.php:164 widgets/categories.php:269
+#: widgets/categories.php:408 widgets/content.php:151 widgets/cost.php:182
+#: widgets/cost.php:277 widgets/cost.php:363 widgets/export-google.php:217
+#: widgets/export-google.php:384 widgets/export-ical.php:217
+#: widgets/export-ical.php:384 widgets/featuredImage.php:119
+#: widgets/location.php:1065 widgets/location.php:1221 widgets/notice.php:194
+#: widgets/related.php:232 widgets/related.php:296 widgets/related.php:390
+#: widgets/related.php:484 widgets/related.php:578 widgets/rsvp.php:178
+#: widgets/rsvp.php:272 widgets/rsvp.php:366 widgets/rsvp.php:460
+#: widgets/share.php:347 widgets/share.php:483 widgets/start-end.php:184
+#: widgets/start-end.php:268 widgets/start-end.php:352 widgets/tags.php:165
+#: widgets/tags.php:271 widgets/tags.php:410 widgets/ticket.php:178
+#: widgets/ticket.php:272 widgets/ticket.php:366 widgets/time.php:174
+#: widgets/title.php:151
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/categories.php:177 widgets/categories.php:282
+#: widgets/categories.php:421 widgets/content.php:164 widgets/cost.php:195
+#: widgets/cost.php:290 widgets/cost.php:376 widgets/export-google.php:230
+#: widgets/export-google.php:397 widgets/export-ical.php:230
+#: widgets/export-ical.php:397 widgets/featuredImage.php:132
+#: widgets/location.php:1078 widgets/location.php:1234 widgets/notice.php:207
+#: widgets/related.php:245 widgets/related.php:309 widgets/related.php:403
+#: widgets/related.php:497 widgets/related.php:591 widgets/rsvp.php:191
+#: widgets/rsvp.php:285 widgets/rsvp.php:379 widgets/rsvp.php:473
+#: widgets/share.php:360 widgets/share.php:496 widgets/start-end.php:197
+#: widgets/start-end.php:281 widgets/start-end.php:365 widgets/tags.php:178
+#: widgets/tags.php:284 widgets/tags.php:423 widgets/ticket.php:191
+#: widgets/ticket.php:285 widgets/ticket.php:379 widgets/time.php:187
+#: widgets/title.php:164
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/categories.php:187
+msgid "Categories"
+msgstr ""
+
+#: widgets/categories.php:199 widgets/export-google.php:119
+#: widgets/export-ical.php:119 widgets/location.php:994
+#: widgets/next-prev.php:160 widgets/tags.php:201
+msgid "Normal"
+msgstr ""
+
+#: widgets/categories.php:227 widgets/categories.php:366
+#: widgets/export-google.php:175 widgets/export-google.php:342
+#: widgets/export-ical.php:175 widgets/export-ical.php:342
+#: widgets/location.php:1023 widgets/location.php:1179 widgets/notice.php:140
+#: widgets/related.php:190 widgets/related.php:348 widgets/related.php:442
+#: widgets/related.php:536 widgets/rsvp.php:136 widgets/rsvp.php:230
+#: widgets/rsvp.php:324 widgets/rsvp.php:418 widgets/share.php:305
+#: widgets/share.php:441 widgets/tags.php:229 widgets/tags.php:368
+#: widgets/ticket.php:136 widgets/ticket.php:230 widgets/ticket.php:324
+msgid "Background"
+msgstr ""
+
+#: widgets/categories.php:292 widgets/export-google.php:285
+#: widgets/export-ical.php:285 widgets/location.php:1159
+#: widgets/next-prev.php:203 widgets/tags.php:294
+msgid "Hover"
+msgstr ""
+
+#: widgets/categories.php:299 widgets/categories.php:354 widgets/tags.php:301
+#: widgets/tags.php:356 widgets/time.php:130
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/categories.php:311 widgets/tags.php:313
+msgid "Background Hover"
+msgstr ""
+
+#: widgets/content.php:36
+msgid "Event content"
+msgstr ""
+
+#: widgets/content.php:79
+msgid "content Typography"
+msgstr ""
+
+#: widgets/content.php:96
+msgid "content Color"
+msgstr ""
+
+#: widgets/content.php:107
+msgid "Hover content Color"
+msgstr ""
+
+#: widgets/cost.php:36
+msgid "Event Cost"
+msgstr ""
+
+#: widgets/cost.php:79 widgets/export-google.php:79 widgets/export-ical.php:79
+#: widgets/next-prev.php:83 widgets/notice.php:79 widgets/related.php:80
+#: widgets/share.php:79 widgets/start-end.php:79 widgets/time.php:80
+msgid "Content"
+msgstr ""
+
+#: widgets/cost.php:87 widgets/related.php:100 widgets/related.php:319
+#: widgets/rsvp.php:201 widgets/share.php:87 widgets/share.php:179
+#: widgets/start-end.php:100 widgets/start-end.php:123 widgets/ticket.php:201
+msgid "Title"
+msgstr ""
+
+#: widgets/cost.php:89 widgets/cost.php:205
+msgid "Cost"
+msgstr ""
+
+#: widgets/cost.php:110
+msgid "Cost Text"
+msgstr ""
+
+#: widgets/cost.php:127 widgets/cost.php:222
+msgid "Cost Color"
+msgstr ""
+
+#: widgets/cost.php:138 widgets/cost.php:233
+msgid "Hover Cost Color"
+msgstr ""
+
+#: widgets/cost.php:308 widgets/location.php:398 widgets/location.php:545
+#: widgets/location.php:649 widgets/location.php:746 widgets/location.php:894
+#: widgets/next-prev.php:178 widgets/notice.php:128 widgets/organizer.php:353
+#: widgets/organizer.php:501 widgets/organizer.php:648
+#: widgets/organizer.php:795 widgets/organizer.php:899
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/cost.php:319
+msgid "Hover Icon Color"
+msgstr ""
+
+#: widgets/cost.php:400
+msgid "$23.00"
+msgstr ""
+
+#: widgets/export-google.php:36
+msgid "Event Export Google"
+msgstr ""
+
+#: widgets/export-google.php:97 widgets/export-ical.php:97
+msgid "Text"
+msgstr ""
+
+#: widgets/export-google.php:99
+msgid "Google Calendar"
+msgstr ""
+
+#: widgets/export-google.php:107 widgets/export-ical.php:107 widgets/map.php:80
+msgid "Style"
+msgstr ""
+
+#: widgets/export-google.php:136 widgets/export-google.php:302
+#: widgets/export-ical.php:136 widgets/export-ical.php:302
+#: widgets/location.php:1086 widgets/location.php:1242
+msgid "Alignment"
+msgstr ""
+
+#: widgets/export-google.php:140 widgets/export-google.php:306
+#: widgets/export-ical.php:140 widgets/export-ical.php:306
+#: widgets/location.php:1090 widgets/location.php:1246
+msgid "Left"
+msgstr ""
+
+#: widgets/export-google.php:144 widgets/export-google.php:310
+#: widgets/export-ical.php:144 widgets/export-ical.php:310
+#: widgets/location.php:1094 widgets/location.php:1250
+msgid "Center"
+msgstr ""
+
+#: widgets/export-google.php:148 widgets/export-google.php:314
+#: widgets/export-ical.php:148 widgets/export-ical.php:314
+#: widgets/location.php:1098 widgets/location.php:1254
+msgid "Right"
+msgstr ""
+
+#: widgets/export-google.php:238 widgets/export-google.php:405
+#: widgets/export-ical.php:238 widgets/export-ical.php:405
+#: widgets/location.php:1113 widgets/location.php:1269
+msgid "Display"
+msgstr ""
+
+#: widgets/export-google.php:242 widgets/export-google.php:409
+#: widgets/export-ical.php:242 widgets/export-ical.php:409
+#: widgets/location.php:1117 widgets/location.php:1273
+msgid "Block"
+msgstr ""
+
+#: widgets/export-google.php:243 widgets/export-google.php:410
+#: widgets/export-ical.php:243 widgets/export-ical.php:410
+#: widgets/location.php:1118 widgets/location.php:1274
+msgid "Inline Block"
+msgstr ""
+
+#: widgets/export-google.php:244 widgets/export-google.php:411
+#: widgets/export-ical.php:244 widgets/export-ical.php:411
+#: widgets/location.php:1119 widgets/location.php:1275
+msgid "Inline"
+msgstr ""
+
+#: widgets/export-google.php:256 widgets/export-google.php:422
+#: widgets/export-ical.php:256 widgets/export-ical.php:422
+#: widgets/location.php:1130 widgets/location.php:1286 widgets/rsvp.php:88
+#: widgets/share.php:270 widgets/share.php:405 widgets/ticket.php:88
+msgid "Width"
+msgstr ""
+
+#: widgets/export-google.php:477
+msgid "Add to Google Calendar"
+msgstr ""
+
+#: widgets/export-ical.php:36
+msgid "Event Export iCal"
+msgstr ""
+
+#: widgets/export-ical.php:99
+msgid "iCal Export"
+msgstr ""
+
+#: widgets/export-ical.php:476
+msgid "Download .ics file"
+msgstr ""
+
+#: widgets/featuredImage.php:36
+msgid "Event Featured Image"
+msgstr ""
+
+#: widgets/featuredImage.php:79 widgets/related.php:88 widgets/related.php:255
+msgid "Featured Image"
+msgstr ""
+
+#: widgets/location.php:36
+msgid "Event Location"
+msgstr ""
+
+#: widgets/location.php:79
+msgid "Location Details"
+msgstr ""
+
+#: widgets/location.php:87 widgets/location.php:339 widgets/organizer.php:87
+#: widgets/organizer.php:116 widgets/organizer.php:294
+msgid "Name"
+msgstr ""
+
+#: widgets/location.php:89 widgets/location.php:135 widgets/location.php:208
+#: widgets/location.php:254 widgets/location.php:300 widgets/organizer.php:89
+#: widgets/organizer.php:136 widgets/organizer.php:182
+#: widgets/organizer.php:228 widgets/related.php:90 widgets/related.php:102
+#: widgets/related.php:114 widgets/related.php:125 widgets/share.php:98
+#: widgets/share.php:125 widgets/share.php:152
+msgid "Show"
+msgstr ""
+
+#: widgets/location.php:90 widgets/location.php:136 widgets/location.php:209
+#: widgets/location.php:255 widgets/location.php:301 widgets/organizer.php:90
+#: widgets/organizer.php:137 widgets/organizer.php:183
+#: widgets/organizer.php:229 widgets/related.php:91 widgets/related.php:103
+#: widgets/related.php:115 widgets/related.php:126 widgets/share.php:99
+#: widgets/share.php:126 widgets/share.php:153
+msgid "Hide"
+msgstr ""
+
+#: widgets/location.php:114
+msgid "Name Title"
+msgstr ""
+
+#: widgets/location.php:116
+msgid "Place Name"
+msgstr ""
+
+#: widgets/location.php:133 widgets/location.php:162 widgets/location.php:486
+#: widgets/organizer.php:226 widgets/organizer.php:255
+#: widgets/organizer.php:736
+msgid "Website"
+msgstr ""
+
+#: widgets/location.php:160
+msgid "Website Title"
+msgstr ""
+
+#: widgets/location.php:172
+msgid "Link Title"
+msgstr ""
+
+#: widgets/location.php:174 widgets/organizer.php:267
+msgid "Visit Website"
+msgstr ""
+
+#: widgets/location.php:184 widgets/organizer.php:277
+msgid "Link Icon"
+msgstr ""
+
+#: widgets/location.php:206 widgets/location.php:235 widgets/location.php:687
+msgid "Address"
+msgstr ""
+
+#: widgets/location.php:233
+msgid "Address Title"
+msgstr ""
+
+#: widgets/location.php:252 widgets/location.php:281 widgets/location.php:835
+#: widgets/organizer.php:134 widgets/organizer.php:163
+#: widgets/organizer.php:442
+msgid "Phone"
+msgstr ""
+
+#: widgets/location.php:279
+msgid "Phone Title"
+msgstr ""
+
+#: widgets/location.php:298
+msgid "Map Button"
+msgstr ""
+
+#: widgets/location.php:325
+msgid "Map Button Title"
+msgstr ""
+
+#: widgets/location.php:327
+msgid "Find on Google Map"
+msgstr ""
+
+#: widgets/location.php:348 widgets/location.php:495 widgets/location.php:696
+#: widgets/location.php:844 widgets/organizer.php:303 widgets/organizer.php:451
+#: widgets/organizer.php:598 widgets/organizer.php:745
+msgid "Label Typography"
+msgstr ""
+
+#: widgets/location.php:356 widgets/location.php:503 widgets/location.php:704
+#: widgets/location.php:852 widgets/organizer.php:311 widgets/organizer.php:459
+#: widgets/organizer.php:606 widgets/organizer.php:753
+msgid "Label Color"
+msgstr ""
+
+#: widgets/location.php:367 widgets/location.php:514 widgets/location.php:715
+#: widgets/location.php:863 widgets/organizer.php:322 widgets/organizer.php:470
+#: widgets/organizer.php:617 widgets/organizer.php:764
+msgid "Label Padding"
+msgstr ""
+
+#: widgets/location.php:379 widgets/location.php:526 widgets/location.php:727
+#: widgets/location.php:875 widgets/organizer.php:334 widgets/organizer.php:482
+#: widgets/organizer.php:629 widgets/organizer.php:776
+msgid "Label Margin"
+msgstr ""
+
+#: widgets/location.php:409 widgets/location.php:556 widgets/location.php:660
+#: widgets/location.php:757 widgets/location.php:905 widgets/organizer.php:364
+#: widgets/organizer.php:512 widgets/organizer.php:659
+#: widgets/organizer.php:806 widgets/organizer.php:910 widgets/time.php:195
+msgid "Icon Padding"
+msgstr ""
+
+#: widgets/location.php:421 widgets/location.php:568 widgets/location.php:672
+#: widgets/location.php:769 widgets/location.php:917 widgets/next-prev.php:189
+#: widgets/notice.php:173 widgets/organizer.php:376 widgets/organizer.php:524
+#: widgets/organizer.php:671 widgets/organizer.php:818
+#: widgets/organizer.php:922 widgets/time.php:207
+msgid "Icon Margin"
+msgstr ""
+
+#: widgets/location.php:441 widgets/location.php:789 widgets/location.php:937
+#: widgets/organizer.php:396 widgets/organizer.php:544
+#: widgets/organizer.php:691
+msgid "Text Typography"
+msgstr ""
+
+#: widgets/location.php:449 widgets/location.php:797 widgets/location.php:945
+#: widgets/location.php:1010 widgets/organizer.php:404
+#: widgets/organizer.php:552 widgets/organizer.php:699
+msgid "Text Color"
+msgstr ""
+
+#: widgets/location.php:460 widgets/location.php:808 widgets/location.php:956
+#: widgets/organizer.php:415 widgets/organizer.php:563
+#: widgets/organizer.php:710
+msgid "Text Padding"
+msgstr ""
+
+#: widgets/location.php:472 widgets/location.php:820 widgets/location.php:968
+#: widgets/organizer.php:427 widgets/organizer.php:575
+#: widgets/organizer.php:722
+msgid "Text Margin"
+msgstr ""
+
+#: widgets/location.php:588 widgets/organizer.php:838
+msgid "Link Typography"
+msgstr ""
+
+#: widgets/location.php:596 widgets/organizer.php:846
+msgid "Link Color"
+msgstr ""
+
+#: widgets/location.php:607 widgets/organizer.php:857
+msgid "Link Hover Color"
+msgstr ""
+
+#: widgets/location.php:618 widgets/organizer.php:868
+msgid "Link Padding"
+msgstr ""
+
+#: widgets/location.php:630 widgets/organizer.php:880
+msgid "Link Margin"
+msgstr ""
+
+#: widgets/location.php:982 widgets/ticket.php:295
+msgid "Button"
+msgstr ""
+
+#: widgets/location.php:1390
+msgid "Click to view a Google Map"
+msgstr ""
+
+#: widgets/map.php:36
+msgid "Event Map"
+msgstr ""
+
+#: widgets/map.php:88
+msgid "Height"
+msgstr ""
+
+#: widgets/next-prev.php:40
+msgid "Event Next/Previous"
+msgstr ""
+
+#: widgets/next-prev.php:91
+msgid "Previous Link Icon"
+msgstr ""
+
+#: widgets/next-prev.php:102
+msgid "Center Link Icon"
+msgstr ""
+
+#: widgets/next-prev.php:113
+msgid "Next Link Icon"
+msgstr ""
+
+#: widgets/next-prev.php:126
+msgid "All Events Text"
+msgstr ""
+
+#: widgets/next-prev.php:129
+msgid "See All Events"
+msgstr ""
+
+#: widgets/next-prev.php:136
+msgid "All Events URL"
+msgstr ""
+
+#: widgets/next-prev.php:139
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/next-prev.php:148
+msgid "NextPrev Typography"
+msgstr ""
+
+#: widgets/next-prev.php:167 widgets/next-prev.php:210 widgets/title.php:96
+msgid "Title Color"
+msgstr ""
+
+#: widgets/notice.php:36
+msgid "Event Notice"
+msgstr ""
+
+#: widgets/notice.php:100
+msgid "Notice Typography"
+msgstr ""
+
+#: widgets/notice.php:117
+msgid "Notice Color"
+msgstr ""
+
+#: widgets/notice.php:230
+msgid "Example: This event has passed."
+msgstr ""
+
+#: widgets/organizer.php:36
+msgid "Event Organizer"
+msgstr ""
+
+#: widgets/organizer.php:79
+msgid "Organizer Details"
+msgstr ""
+
+#: widgets/organizer.php:114
+msgid "Name Label"
+msgstr ""
+
+#: widgets/organizer.php:161
+msgid "Phone Label"
+msgstr ""
+
+#: widgets/organizer.php:180 widgets/organizer.php:209
+#: widgets/organizer.php:589
+msgid "Email"
+msgstr ""
+
+#: widgets/organizer.php:207
+msgid "Email Label"
+msgstr ""
+
+#: widgets/organizer.php:253
+msgid "Website Label"
+msgstr ""
+
+#: widgets/organizer.php:265
+msgid "Link Label"
+msgstr ""
+
+#: widgets/related.php:36
+msgid "Related Events"
+msgstr ""
+
+#: widgets/related.php:112 widgets/related.php:413
+msgid "Start Time"
+msgstr ""
+
+#: widgets/related.php:123 widgets/related.php:507
+msgid "End Time"
+msgstr ""
+
+#: widgets/related.php:135
+msgid "Start Time Icon"
+msgstr ""
+
+#: widgets/related.php:147
+msgid "End Time Icon"
+msgstr ""
+
+#: widgets/related.php:161 widgets/rsvp.php:80 widgets/ticket.php:80
+msgid "Box"
+msgstr ""
+
+#: widgets/related.php:663
+msgid "Start Time:"
+msgstr ""
+
+#: widgets/related.php:666
+msgid "End Time:"
+msgstr ""
+
+#: widgets/rsvp.php:36
+msgid "Event RSVP"
+msgstr ""
+
+#: widgets/rsvp.php:295
+msgid "Buttons"
+msgstr ""
+
+#: widgets/rsvp.php:389
+msgid "Attendees"
+msgstr ""
+
+#: widgets/share.php:36
+msgid "Event Share"
+msgstr ""
+
+#: widgets/share.php:89
+msgid "Share the event on"
+msgstr ""
+
+#: widgets/share.php:96
+msgid "Show Facebook Icon"
+msgstr ""
+
+#: widgets/share.php:123
+msgid "Show Twitter Icon"
+msgstr ""
+
+#: widgets/share.php:150
+msgid "Show Email Icon"
+msgstr ""
+
+#: widgets/share.php:162
+msgid "Email Icon"
+msgstr ""
+
+#: widgets/share.php:235
+msgid "Icons"
+msgstr ""
+
+#: widgets/share.php:243 widgets/share.php:378
+msgid "Font Size"
+msgstr ""
+
+#: widgets/share.php:370
+msgid "Icons Hover"
+msgstr ""
+
+#: widgets/start-end.php:36
+msgid "Event Start and End Date"
+msgstr ""
+
+#: widgets/start-end.php:87
+msgid "Display Start or End"
+msgstr ""
+
+#: widgets/start-end.php:91
+msgid "Start"
+msgstr ""
+
+#: widgets/start-end.php:92
+msgid "End"
+msgstr ""
+
+#: widgets/start-end.php:102
+msgid "Start Date:"
+msgstr ""
+
+#: widgets/start-end.php:207
+msgid "Date"
+msgstr ""
+
+#: widgets/tags.php:39
+msgid "Event Tags"
+msgstr ""
+
+#: widgets/tags.php:188
+msgid "Tags"
+msgstr ""
+
+#: widgets/tags.php:454
+msgid "Event Tags:"
+msgstr ""
+
+#: widgets/ticket.php:36
+msgid "Event Ticket"
+msgstr ""
+
+#: widgets/time.php:36
+msgid "Event Time"
+msgstr ""
+
+#: widgets/time.php:102
+msgid "Time Typography"
+msgstr ""
+
+#: widgets/title.php:36
+msgid "Event Title"
+msgstr ""
+
+#: widgets/title.php:79
+msgid "Title Typography"
+msgstr ""
+
+#: widgets/title.php:107
+msgid "Hover Title Color"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://example.com/plugins/the-basics/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create single event page with Elementor for The Events Calendar plguin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "katsu Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://katsustudio.net"
+msgstr ""

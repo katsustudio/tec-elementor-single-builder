@@ -1,0 +1,106 @@
+.tec-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tec-single-notice ul {
+    list-style: none;
+}
+
+.tec-single-time-wrap>i {
+    display: inline-block;
+}
+
+.tec-single-time {
+    display: inline-block;
+}
+
+.tec-event-share-title {
+    margin-right: 20px;
+}
+
+.tec-event-share a {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* Related Events */
+.tec-related-events-wrap {
+    position: relative;
+    clear: both;
+}
+
+.tec-related-events-wrap .tec-related-events-post {
+    float: left;
+    width: 31.2%;
+    margin-right: 30px;
+    background: #fff;
+    border: 1px solid #E0E5EB;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.tec-related-events-wrap>div:last-child {
+    margin-right: 0;
+}
+
+.tec-related-events-wrap .tec-related-events-post h5 {
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.tec-related-events-wrap .tribe-events-event-image {
+    margin-bottom: 20px;
+}
+
+.tec-related-events-wrap .tribe-events-event-image img {
+    border-radius: 12px;
+}
+
+.tec-related-events-post-time {
+    color: #4B535C;
+    font-size: 16px;
+}
+
+.tec-related-events-post-time span {
+    color: #768194;
+}
+
+@media (max-width: 1000px) {
+    .tec-related-events-wrap .tec-related-events-post {
+        width: 100%;
+        margin-bottom: 30px
+    }
+}
+
+.tec-ticket-events-wrap #tribe-tickets {
+    max-width: none;
+}
+
+.tec-navigation a,
+.tec-navigation i,
+.tec-navigation svg {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.tribe-events-event-image img {
+    width: 100%;
+}
+
+dd.tribe-events-event-categories {
+    margin-left: 0;
+}
+
+dd.tribe-event-tags {
+    margin-left: 0;
+}
+
+dd.tribe-event-tags a,
+dd.tribe-events-event-categories a {
+    display: inline-block;
+}
