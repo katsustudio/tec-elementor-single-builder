@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== TEC Elementor Single Builder ===
 Contributors: Katsustudio
 Donate link: https://katsustudio.net
 Tags: Event, Events, Calendar, Booking, Schedule, Organizer, Venue
