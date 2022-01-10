@@ -477,7 +477,7 @@ class TEC_Export_Google extends \Elementor\Widget_Base
 		?>
 		<a class="tec-single-export-google" href="<?php echo Tribe__Events__Main::instance()->esc_gcal_url( tribe_get_gcal_link($event_id) ) ?>" title="<?php echo esc_attr__( 'Add to Google Calendar', 'tec-elementor-single-builder' ) ?>">
 		<?php \Elementor\Icons_Manager::render_icon( $settings['google_icon'], [ 'aria-hidden' => 'true' ] ); 
-		echo ' '. sanitize_text_field( $settings['google_text'] ) ?>
+		echo ' '. esc_html__( $settings['google_text'] ) ?>
 		</a>
 		<?php
 	}

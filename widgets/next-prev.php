@@ -252,7 +252,7 @@ class TEC_NextPrev extends \Elementor\Widget_Base
 		?>
 		<div class="tec-navigation">
 			<div class="tribe-events-nav-previous"><?php echo wp_kses_post($prev_icon) . apply_filters( 'tribe_get_prev_event_link', tribe( 'tec.adjacent-events' )->get_prev_event_link( false), $event_id ) ?></div>
-			<div class="tribe-events-nav-center"><?php echo wp_kses_post($middle_icon) . '<a href="'.esc_url($settings['tec_events_url']).'">' .sanitize_text_field($settings['tec_events_text']).'</a>'; ?></div>
+			<div class="tribe-events-nav-center"><?php echo wp_kses_post($middle_icon) . '<a href="'.esc_url($settings['tec_events_url']).'">' .esc_html__($settings['tec_events_text']).'</a>'; ?></div>
 			<div class="tribe-events-nav-next"><?php echo apply_filters( 'tribe_get_next_event_link', tribe( 'tec.adjacent-events' )->get_next_event_link( false ), $event_id ) . $next_icon ?></div>
 		</div>
 		<?php

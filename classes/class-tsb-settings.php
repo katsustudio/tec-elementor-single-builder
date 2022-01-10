@@ -90,10 +90,7 @@ final class Tec_SB_Settings
         // Verify valid nonce.
         if(!wp_verify_nonce(sanitize_text_field($_POST['tec_settings_nonce']), 'tec_settings_data')) return;
 
-        $tec = isset( $_POST['tec'] ) ? (array) $_POST['tec'] : array();
-
-        // Any of the WordPress data sanitization functions can be used here
-        $tec = array_map( 'esc_attr', $tec );
+        $tec = isset( $_POST['tec'] ) ? array_map( 'sanitize_key', (array) $_POST['tec'] ) : array();
         update_option('tec_esb_options', $tec);
         json_encode(array('message' => 'saved!'));
 

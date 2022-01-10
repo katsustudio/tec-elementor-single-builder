@@ -514,22 +514,22 @@ class TEC_Share extends \Elementor\Widget_Base
 		?>
         <div class="tec-event-share">
 		
-        <?php if ($settings['tec_title']) echo wp_kses_post('<span class="tec-event-share-title">'. sanitize_text_field($settings['tec_title']) .'</span>');
-        if ('yes' === sanitize_text_field($settings['facebook_icon_display'])){
+        <?php if ($settings['tec_title']) echo wp_kses_post('<span class="tec-event-share-title">'. esc_html__($settings['tec_title']) .'</span>');
+        if ('yes' === esc_html__($settings['facebook_icon_display'])){
 			?>
             <a target="_blank" class="tec-event-share-link" href="https://www.facebook.com/sharer.php?m2w&s=100&p[url]=<?php echo get_the_permalink(get_the_ID())?>&p[images][0]=<?php echo get_the_post_thumbnail_url( get_the_ID(), 'full' ) ?>">
             <?php \Elementor\Icons_Manager::render_icon( $settings['facebook_icon'], [ 'aria-hidden' => 'true' ] ); ?>
             </a>
 			<?php
         }
-        if ('yes' === sanitize_text_field($settings['twitter_icon_display'])){
+        if ('yes' === esc_html__($settings['twitter_icon_display'])){
 			?>
             <a target="_blank" class="tec-event-share-link" href="https://twitter.com/intent/tweet?original_referer=<?php echo get_the_permalink(get_the_ID()) ?>&amp;text=<?php echo esc_html( $dashed_title ) ?>&amp;tw_p=tweetbutton&amp;url=<?php echo get_the_permalink(get_the_ID()) ?>">
             <?php \Elementor\Icons_Manager::render_icon( $settings['twitter_icon'], [ 'aria-hidden' => 'true' ] );?>
             </a>
 			<?php
         }
-        if ('yes' === sanitize_text_field($settings['email_icon_display'])){
+        if ('yes' === esc_html__($settings['email_icon_display'])){
 			?>
             <a target="_blank" class="tec-event-share-link" href="mailto:?subject=<?php echo esc_html( $dashed_title ) ?>&amp;body=<?php echo get_the_permalink(get_the_ID()) ?>">
             <?php \Elementor\Icons_Manager::render_icon( $settings['email_icon'], [ 'aria-hidden' => 'true' ] );?>

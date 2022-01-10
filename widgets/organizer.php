@@ -964,7 +964,7 @@ class TEC_Organizer extends \Elementor\Widget_Base
 				?>
 				<div class="tec-event-organizer-name">
 					<?php \Elementor\Icons_Manager::render_icon( $settings['org_name_icon'], [ 'aria-hidden' => 'true' ] ); ?>
-					<span class="tec-event-organizer-name-title"><?php echo sanitize_text_field($settings['org_name_title']); ?></span>
+					<span class="tec-event-organizer-name-title"><?php echo esc_html__($settings['org_name_title']); ?></span>
 					<span class="tec-event-organizer-name-text"><?php echo esc_html(get_the_title($organizer)) ?></span>
 				</div>
 				<?php
@@ -973,7 +973,7 @@ class TEC_Organizer extends \Elementor\Widget_Base
 				?>
 				<div class="tec-event-organizer-phone">
 					<?php \Elementor\Icons_Manager::render_icon( $settings['org_phone_icon'], [ 'aria-hidden' => 'true' ] ); ?>
-					<span class="tec-event-organizer-phone-title"><?php echo sanitize_text_field($settings['org_phone_title']); ?></span>
+					<span class="tec-event-organizer-phone-title"><?php echo esc_html__($settings['org_phone_title']); ?></span>
 					<span class="tec-event-organizer-phone-text"><?php echo esc_html( tribe_get_event_meta( tribe_get_organizer_id( $organizer ), '_OrganizerPhone', true ) ) ?></span>
 				</div>
 				<?php
@@ -982,7 +982,7 @@ class TEC_Organizer extends \Elementor\Widget_Base
 				?>
 				<div class="tec-event-organizer-email">
 					<?php \Elementor\Icons_Manager::render_icon( $settings['org_email_icon'], [ 'aria-hidden' => 'true' ] ); ?>
-					<span class="tec-event-organizer-email-title"><?php echo sanitize_text_field($settings['org_email_title']); ?></span>
+					<span class="tec-event-organizer-email-title"><?php echo esc_html__($settings['org_email_title']); ?></span>
 					<span class="tec-event-organizer-email-text"><?php echo esc_html( tribe_get_event_meta( tribe_get_organizer_id( $organizer ), '_OrganizerEmail', true ) ) ?></span>
 				</div>
 				<?php
@@ -991,7 +991,7 @@ class TEC_Organizer extends \Elementor\Widget_Base
 				?>
 				<div class="tec-event-organizer-website">
 					<?php \Elementor\Icons_Manager::render_icon( $settings['org_website_icon'], [ 'aria-hidden' => 'true' ] ); ?>
-					<span class="tec-event-organizer-website-title"><?php echo sanitize_text_field($settings['org_website_title']); ?></span>
+					<span class="tec-event-organizer-website-title"><?php echo esc_html__($settings['org_website_title']); ?></span>
 					<a style="display:inline-block" class="tec-event-organizer-website-link" target="_blank" href="<?php echo esc_html( tribe_get_event_meta( tribe_get_organizer_id( $organizer ), '_OrganizerWebsite', true ) ) ?>"><span><?php echo esc_html__($settings['org_website_link_title']) ?></span>
 					<?php \Elementor\Icons_Manager::render_icon( $settings['org_website_link_icon'], [ 'aria-hidden' => 'true' ] ); ?>
 					</a>

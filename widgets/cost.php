@@ -397,7 +397,7 @@ class TEC_Cost extends \Elementor\Widget_Base
 			?>
 			<div class="tec-single-cost tribe-events-cost"><span class="tec-single-cost-title">
 			<?php \Elementor\Icons_Manager::render_icon( $settings['icon'], [ 'aria-hidden' => 'true' ] );?>
-			<?php echo sanitize_text_field($settings['title']) ?></span>
+			<?php echo esc_html__($settings['title']) ?></span>
 			<?php echo esc_html__('$23.00' , 'tec-elementor-single-builder'); ?>
 			</div>
 			<?php
@@ -411,7 +411,7 @@ class TEC_Cost extends \Elementor\Widget_Base
 			?>
 			<div class="tec-single-cost tribe-events-cost"><span class="tec-single-cost-title">
 			<?php \Elementor\Icons_Manager::render_icon( $settings['icon'], [ 'aria-hidden' => 'true' ] );?>
-			<?php echo sanitize_text_field($settings['title']) ?></span>
+			<?php echo esc_html__($settings['title']) ?></span>
 			<?php echo tribe_get_cost( null, true ); ?>
 			</div>
 			<?php

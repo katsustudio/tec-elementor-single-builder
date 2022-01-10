@@ -1338,17 +1338,17 @@ class TEC_Location extends \Elementor\Widget_Base
 			}
         }
 
-		if ( 'yes' === sanitize_text_field($settings['loc_name']) ) {
+		if ( 'yes' === esc_html__($settings['loc_name']) ) {
 			?>
 			<div class="tec-event-location-name">
 				<?php \Elementor\Icons_Manager::render_icon( $settings['name_icon'], [ 'aria-hidden' => 'true' ] ); ?>
-				<span class="tec-event-location-name-title"><?php echo sanitize_text_field($settings['name_title']) ?></span>
+				<span class="tec-event-location-name-title"><?php echo esc_html__($settings['name_title']) ?></span>
 				<span class="tec-event-location-name-text"><?php echo tribe_get_venue($event_id) ?></span>
 			</div>
 			<?php
 		}
 
-		if ( 'yes' === sanitize_text_field($settings['loc_website']) ) {
+		if ( 'yes' === esc_html__($settings['loc_website']) ) {
 			$post_id = tribe_get_venue_id( $event_id );
 			$url     = tribe_get_venue_website_url( $post_id );
 			if ( ! empty( $url ) ) {
@@ -1359,11 +1359,11 @@ class TEC_Location extends \Elementor\Widget_Base
 			}
 			$website_link_target = apply_filters( 'tribe_get_venue_website_link_target', '_self', $url, $post_id );
 			$rel                 = ( '_blank' === $website_link_target ) ? 'noopener noreferrer' : 'external';
-			$website_link_label =  sanitize_text_field( $settings['website_link'] );
+			$website_link_label =  esc_html__( $settings['website_link'] );
 			?>
 			<div class="tec-event-location-website">
 				<?php \Elementor\Icons_Manager::render_icon( $settings['website_icon'], [ 'aria-hidden' => 'true' ] ); ?>
-				<span class="tec-event-location-website-title"><?php echo sanitize_text_field($settings['website_title']) ?></span>
+				<span class="tec-event-location-website-title"><?php echo esc_html__($settings['website_title']) ?></span>
 				<div style="display:inline-block" class="tec-event-location-website-link"><a href="<?php echo  esc_url( $url );  ?>" target="<?php echo esc_attr( $website_link_target ); ?>" rel="<?php echo esc_attr( $rel ); ?>"><?php echo esc_html( $website_link_label );
 				 \Elementor\Icons_Manager::render_icon( $settings['website_link_icon'], [ 'aria-hidden' => 'true' ] ); ?>
 				</a></div>
@@ -1371,34 +1371,34 @@ class TEC_Location extends \Elementor\Widget_Base
 			<?php
 		}
 
-		if ( 'yes' === sanitize_text_field($settings['loc_address']) ) {
+		if ( 'yes' === esc_html__($settings['loc_address']) ) {
 			?>
 			<div class="tec-event-location-address">
 				<?php \Elementor\Icons_Manager::render_icon( $settings['address_icon'], [ 'aria-hidden' => 'true' ] ); ?>
-				<span class="tec-event-location-address-title"><?php echo sanitize_text_field($settings['address_title']) ?></span>
+				<span class="tec-event-location-address-title"><?php echo esc_html__($settings['address_title']) ?></span>
 				<span class="tec-event-location-address-text"><?php echo tribe_get_full_address($event_id,false) ?></span>
 			</div>
 			<?php
 		}
 
-		if ( 'yes' === sanitize_text_field($settings['loc_phone']) ) {
+		if ( 'yes' === esc_html__($settings['loc_phone']) ) {
 			?>
 			<div class="tec-event-location-phone">
 				<?php \Elementor\Icons_Manager::render_icon( $settings['phone_icon'], [ 'aria-hidden' => 'true' ] ); ?>
-				<span class="tec-event-location-phone-title"><?php echo sanitize_text_field($settings['phone_title']) ?></span>
+				<span class="tec-event-location-phone-title"><?php echo esc_html__($settings['phone_title']) ?></span>
 				<span class="tec-event-location-phone-text"><?php echo tribe_get_phone($event_id) ?></span>
 			</div>
 			<?php
 		}
 
-		if ( 'yes' === sanitize_text_field($settings['loc_map']) ) {
+		if ( 'yes' === esc_html__($settings['loc_map']) ) {
 			?>
 			<div class="tec-event-location-map">
 				<?php if ( tribe_show_google_map_link($event_id) ) : 
 					$map_link = esc_url( tribe_get_map_link( $event_id ) ); ?>
 					<a class="tec-event-location-map-button" href="<?php echo $map_link ?>" title="<?php echo esc_html__( 'Click to view a Google Map', 'the-events-calendar' ) ?>" target="_blank" rel="noreferrer noopener">
 					<?php \Elementor\Icons_Manager::render_icon( $settings['map_icon'], [ 'aria-hidden' => 'true' ] );?>
-					<span class="tec-event-location-map-title"><?php echo sanitize_text_field($settings['map_title']) ?></span>
+					<span class="tec-event-location-map-title"><?php echo esc_html__($settings['map_title']) ?></span>
 					</a>
 				<?php endif;?>
 			</div>

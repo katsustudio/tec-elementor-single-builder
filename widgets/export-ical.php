@@ -476,7 +476,7 @@ class TEC_Export_iCal extends \Elementor\Widget_Base
 		?>
 		<a class="tec-single-export-ical" href="<?php echo esc_url( tribe_get_single_ical_link($event_id) ) ?>" title="<?php echo esc_attr__( 'Download .ics file', 'tec-elementor-single-builder' ) ?>">
 		<?php \Elementor\Icons_Manager::render_icon( $settings['ical_icon'], [ 'aria-hidden' => 'true' ] );
-		echo ' '. sanitize_text_field( $settings['ical_text'] ) ?>
+		echo ' '. esc_html__( $settings['ical_text'] ) ?>
 		</a>
 		<?php
 	}
