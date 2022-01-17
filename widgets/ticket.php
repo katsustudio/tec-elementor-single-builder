@@ -47,7 +47,7 @@ class TEC_Ticket extends \Elementor\Widget_Base
 	 */
 	public function get_icon() {
 
-		return 'eicon-product-ticket';
+		return 'eicon-product-price';
 
 	}
 

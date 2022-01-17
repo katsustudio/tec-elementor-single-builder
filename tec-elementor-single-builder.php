@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       TEC Elementor Single Builder
  * Plugin URI:        https://katsustudio.net/wordpress-plugins
- * Description:       Create single event page with Elementor for The Events Calendar plguin
+ * Description:       Create single event page with Elementor for The Events Calendar plugin
  * Version:           1.0
  * Author:            katsu Studio
  * Author URI:        https://katsustudio.net
