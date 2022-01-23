@@ -19,6 +19,8 @@ Using this plugin, you can create multiple templates and change your single page
 
 This plugin works with The Events Calendar version available in WordPress and in the near future more features will be added from the Events Calendar Pro version and its editions.
 
+https://www.youtube.com/watch?v=DBxzCFcU5hA
+
 = ✨ Widgets =
 
 ✔️ Title
