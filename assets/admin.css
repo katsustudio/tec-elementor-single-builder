@@ -1,284 +1,278 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CCatamaran%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.7.4');
 
 .toplevel_page_tec-intro .wp-menu-image {
-    background: url(./tec.png) no-repeat center center;
-    background-size: 25px;
+	background: url(./tec.png) no-repeat center center;
+	background-size: 25px;
 }
 
 /* Dashboard Pages */
 .tec-wrap {
-    margin: 50px auto 0;
-    max-width: 1000px;
+	margin: 50px auto 0;
+	max-width: 1000px;
 }
 
 .tec-dashboard-header {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .tec-dashboard-header-logo img {
-    width: 260px;
+	width: 260px;
 }
 
 .tec-dashboard-header-text h2 {
-    margin: 7px 0 7px;
+	margin: 7px 0 7px;
 }
 
 .tec-dashboard-content-box {
-    padding: 0;
-    min-height: 310px;
-    box-shadow: 0 1px 6px rgb(0 0 0 / 1%);
-    border-radius: 11px;
-    position: relative;
-    background: #fff;
-    margin-top: 40px;
-    padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+	padding: 0;
+	min-height: 310px;
+	box-shadow: 0 1px 6px rgb(0 0 0 / 1%);
+	border-radius: 11px;
+	position: relative;
+	background: #fff;
+	margin-top: 40px;
+	padding: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 .tec-admin-center {
-    text-align: center;
+	text-align: center;
 }
 
 h3.tec-dashboard-content-box-title {
-    font-size: 26px;
-    margin: -10px -30px 0;
-    border-bottom: 1px solid #F0F0F1;
-    padding-bottom: 15px;
-    text-align: left;
-    padding-left: 25px;
-    color: #5956E9;
-    font-family: "Catamaran";
-    line-height: 26px;
+	font-size: 26px;
+	margin: -10px -30px 0;
+	border-bottom: 1px solid #f0f0f1;
+	padding-bottom: 15px;
+	text-align: left;
+	padding-left: 25px;
+	color: #5956e9;
+	font-family: 'Catamaran';
+	line-height: 26px;
 }
 
 .tec-dashboard-content-box-content {
-    margin: 34px 0 0;
-    flex: 1;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+	margin: 34px 0 0;
+	flex: 1;
+	position: relative;
+	display: flex;
+	flex-direction: column;
 }
 
 .tec-dashboard-content-box-content iframe {
-    border: 1px solid #e7e7e7;
-    border-radius: 9px;
-    padding: 15px;
-    box-shadow: 0 3px 10px -6px rgb(0 0 0 / 12%);
-    margin: 0 auto;
+	border-radius: 9px;
+	margin: 0 auto;
+	margin-bottom: 7px;
 }
-
-
 
 /* Settings Page */
 .tec-form-row .nice-select {
-    display: inline-block;
-    float: none;
-    min-width: 240px;
-    border-radius: 5px;
-    background: #F9FAFC;
-    border-color: rgba(0, 52, 165, 0.05) !important;
-    color: #515254;
-    box-shadow: 0 3px 3px rgb(0 52 165 / 3%);
-    transition: all 0.2s ease;
+	display: inline-block;
+	float: none;
+	min-width: 240px;
+	border-radius: 5px;
+	background: #f9fafc;
+	border-color: rgba(0, 52, 165, 0.05) !important;
+	color: #515254;
+	box-shadow: 0 3px 3px rgb(0 52 165 / 3%);
+	transition: all 0.2s ease;
 }
 
 .tec-form-row .nice-select:after {
-    border-width: 1px;
+	border-width: 1px;
 }
 
 .tec-form-row .nice-select.open:after {
-    border-bottom-color: #5956E9;
-    border-right-color: #5956E9;
+	border-bottom-color: #5956e9;
+	border-right-color: #5956e9;
 }
 
 .tec-form-row .nice-select:hover,
 .tec-form-row .nice-select.open {
-    border-color: #5956E9 !important;
-    box-shadow: none;
+	border-color: #5956e9 !important;
+	box-shadow: none;
 }
 
 .tec-form-row .nice-select .list {
-    width: 238px;
-    margin-top: 5px;
-    border-radius: 5px;
-    background: #F9FAFC;
-    color: #000000;
+	width: 238px;
+	margin-top: 5px;
+	border-radius: 5px;
+	background: #f9fafc;
+	color: #000000;
 }
 
 .tec-form-row .nice-select .option:hover,
 .tec-form-row .nice-select .option.focus,
 .tec-form-row .nice-select .option.selected.focus {
-    background: transparent;
-    font-weight: 400;
-    color: #9851E9;
+	background: transparent;
+	font-weight: 400;
+	color: #9851e9;
 }
 
 .tec-form-row .nice-select .option {
-    margin: 0;
+	margin: 0;
 }
 
 .tec-form-row .nice-select .option:first-child {
-    margin-top: 6px;
+	margin-top: 6px;
 }
 
 .tec-form-row .nice-select .option:last-child {
-    margin-bottom: 6px;
+	margin-bottom: 6px;
 }
 
-
 button#tec_settings_form_button {
-    position: relative;
-    outline: none;
-    border: none;
-    box-shadow: none;
-    display: inline-block;
-    background: #5956E9;
-    font-size: 13px;
-    border-radius: 4px;
-    font-family: "Nunito";
-    font-weight: 500;
-    letter-spacing: 0.7px;
-    line-height: 22px;
-    padding: 7px 14px 6px;
+	position: relative;
+	outline: none;
+	border: none;
+	box-shadow: none;
+	display: inline-block;
+	background: #5956e9;
+	font-size: 13px;
+	border-radius: 4px;
+	font-family: 'Nunito';
+	font-weight: 500;
+	letter-spacing: 0.7px;
+	line-height: 22px;
+	padding: 7px 14px 6px;
 }
 
 button#tec_settings_form_button:hover {
-    background: #423FE9;
+	background: #423fe9;
 }
 
 button#tec_settings_form_button.loading span {
-    margin-left: 25px;
+	margin-left: 25px;
 }
 
 form#tec_settings_form {
-    position: relative;
-    height: 100%;
-    flex: 1;
-    font-family: "Nunito";
-    font-size: 14px;
-    line-height: 19px;
-    color: #515254;
+	position: relative;
+	height: 100%;
+	flex: 1;
+	font-family: 'Nunito';
+	font-size: 14px;
+	line-height: 19px;
+	color: #515254;
 }
 
 form#tec_settings_form label {
-    min-width: 330px;
-    display: inline-block;
+	min-width: 330px;
+	display: inline-block;
 }
 
 form#tec_settings_form .tec-form-row {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .tec-loading-full {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #fff;
-    opacity: 0;
-    transition: all 0.3s ease;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+	opacity: 0;
+	transition: all 0.3s ease;
 }
 
 /* Save loading */
 .tec-loader {
-    border: 2px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 2px solid #abaae3;
-    width: 14px;
-    height: 14px;
-    -webkit-animation: tec_spin 2s linear infinite;
-    animation: tec_spin 2s linear infinite;
-    display: none;
-    position: absolute;
-    top: calc(50% - 9px);
-    left: 10px;
+	border: 2px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 2px solid #abaae3;
+	width: 14px;
+	height: 14px;
+	-webkit-animation: tec_spin 2s linear infinite;
+	animation: tec_spin 2s linear infinite;
+	display: none;
+	position: absolute;
+	top: calc(50% - 9px);
+	left: 10px;
 }
 
 /* Safari */
 @-webkit-keyframes tec_spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-    }
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
 
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
 }
 
 @keyframes tec_spin {
-    0% {
-        transform: rotate(0deg);
-    }
+	0% {
+		transform: rotate(0deg);
+	}
 
-    100% {
-        transform: rotate(360deg);
-    }
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 /* Saved Settings tickbox */
 .tec-checkmark-circle {
-    stroke-dasharray: 166;
-    stroke-dashoffset: 166;
-    stroke-width: 2;
-    stroke-miterlimit: 10;
-    stroke: #7ac142;
-    fill: none;
-    animation: tec_stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+	stroke-dasharray: 166;
+	stroke-dashoffset: 166;
+	stroke-width: 2;
+	stroke-miterlimit: 10;
+	stroke: #7ac142;
+	fill: none;
+	animation: tec_stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
 }
 
 .tec-checkmark {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    stroke-width: 2;
-    stroke: #fff;
-    stroke-miterlimit: 10;
-    box-shadow: inset 0px 0px 0px #7ac142;
-    animation: tec_fill .4s ease-in-out .4s forwards,
-        tec_scale .3s ease-in-out .9s both;
-    display: inline-block;
-    margin: 0;
-    position: absolute;
-    top: 4px;
-    right: -32px;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	stroke-width: 2;
+	stroke: #fff;
+	stroke-miterlimit: 10;
+	box-shadow: inset 0px 0px 0px #7ac142;
+	animation: tec_fill 0.4s ease-in-out 0.4s forwards,
+		tec_scale 0.3s ease-in-out 0.9s both;
+	display: inline-block;
+	margin: 0;
+	position: absolute;
+	top: 4px;
+	right: -32px;
 }
 
 .tec-checkmark-check {
-    transform-origin: 50% 50%;
-    stroke-dasharray: 48;
-    stroke-dashoffset: 48;
-    animation: tec_stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+	transform-origin: 50% 50%;
+	stroke-dasharray: 48;
+	stroke-dashoffset: 48;
+	animation: tec_stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
 }
 
 @keyframes tec_stroke {
-    100% {
-        stroke-dashoffset: 0;
-    }
+	100% {
+		stroke-dashoffset: 0;
+	}
 }
 
 @keyframes tec_scale {
+	0%,
+	100% {
+		transform: none;
+	}
 
-    0%,
-    100% {
-        transform: none;
-    }
-
-    50% {
-        transform: scale3d(1.1, 1.1, 1);
-    }
+	50% {
+		transform: scale3d(1.1, 1.1, 1);
+	}
 }
 
 @keyframes tec_fill {
-    100% {
-        box-shadow: inset 0px 0px 0px 30px #7ac142;
-    }
+	100% {
+		box-shadow: inset 0px 0px 0px 30px #7ac142;
+	}
 }
 
 .tec-options-fields {
-    position: absolute;
-    bottom: 0;
+	position: absolute;
+	bottom: 0;
 }

@@ -2,9 +2,9 @@
 Contributors: Katsustudio
 Donate link: https://katsustudio.net
 Tags: Event, Events, Calendar, Booking, Schedule, Organizer, Venue
-Requires at least: 4.7
+Requires at least: 5.0
 Tested up to: 5.8
-Stable tag: 1.0
+Stable tag: 1.0.0
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -37,8 +37,6 @@ This plugin works with The Events Calendar version available in WordPress and in
 ✔️ Next/Previous
 ✔️ Share to Facebook,Twitter,Email
 ✔️ Related Events
-✔️ Tickets
-✔️ RSVP
 
 == Frequently Asked Questions ==
 
@@ -53,5 +51,5 @@ You can create an infinite number of templates.
 
 == Changelog ==
 
-= 1.0 =
+= [1.0.0] 2022-01-23 =
 * Initial Release

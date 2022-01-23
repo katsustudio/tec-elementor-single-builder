@@ -38,7 +38,7 @@ $event_query = new WP_Query($event_args);
                     <div class="tec-form-row">
                         <label for="builder_id"><?php echo esc_html__('Select builder to display event:',  'tec-elementor-single-builder'); ?></label>
                         <select id="builder_id" name="tec[builder_id]">
-                            <option <?php if( $settings['builder_id'] == 'none' ) echo esc_html__('selected="selected"'); ?>  value="none"><?php echo esc_html__('None' , 'tec-elementor-single-builder'); ?></option>
+                            <option <?php if( isset($settings['builder_id']) && $settings['builder_id'] == 'none' ) echo esc_html__('selected="selected"'); ?>  value="none"><?php echo esc_html__('None' , 'tec-elementor-single-builder'); ?></option>
                             <?php if ($builder_query->have_posts() ) : while ( $builder_query->have_posts() ) : $builder_query->the_post(); ?>
                                 <option <?php if( $settings['builder_id'] == get_the_ID() ) echo esc_html__('selected="selected"'); ?> value="<?php echo get_the_ID(); ?>"><?php echo get_the_title(); ?></option>
                             <?php endwhile; wp_reset_postdata(); endif; ?>
@@ -48,7 +48,7 @@ $event_query = new WP_Query($event_args);
                     <div class="tec-form-row">
                         <label for="event_id"><?php echo esc_html__('Select Event data to display in elementor edit page:',  'tec-elementor-single-builder'); ?></label>
                         <select id="event_id" name="tec[event_id]">
-                            <option <?php if( $settings['event_id'] == 'none' ) echo esc_html__('selected="selected"'); ?>  value="none"><?php echo esc_html__('None' , 'tec-elementor-single-builder'); ?></option>
+                            <option <?php if( isset($settings['event_id']) && $settings['event_id'] == 'none' ) echo esc_html__('selected="selected"'); ?>  value="none"><?php echo esc_html__('None' , 'tec-elementor-single-builder'); ?></option>
                             <?php if ($event_query->have_posts() ) : while ( $event_query->have_posts() ) : $event_query->the_post(); ?>
                                 <option <?php if( $settings['event_id'] == get_the_ID() ) echo esc_html__('selected="selected"'); ?> value="<?php echo get_the_ID(); ?>"><?php echo get_the_title(); ?></option>
                             <?php endwhile; wp_reset_postdata(); endif; ?>

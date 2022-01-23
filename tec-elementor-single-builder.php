@@ -3,7 +3,7 @@
  * Plugin Name:       TEC Elementor Single Builder
  * Plugin URI:        https://katsustudio.net/wordpress-plugins
  * Description:       Create single event page with Elementor for The Events Calendar plugin
- * Version:           1.0
+ * Version:           1.0.0.0
  * Author:            katsu Studio
  * Author URI:        https://katsustudio.net
  * License:           GPL v2 or later
@@ -21,7 +21,7 @@ use Elementor\Core\Files\CSS\Post;
 /**
  * Returns the main instance of TecEsb to prevent the need to use globals.
  *
- * @since  1.0
+ * @since  1.0.0
  * @return object TecEsb
  */
 function TecEsb() {
@@ -33,8 +33,8 @@ add_action( 'plugins_loaded', 'TecEsb' );
  * Main TecEsb Class
  *
  * @class TecEsb
- * @version	1.0
- * @since 1.0
+ * @version	1.0.0
+ * @since 1.0.0
  * @package	TecEsb
  * @author Nate
  */
@@ -44,35 +44,35 @@ final class TecEsb {
      * TecEsb The single instance of TecEsb.
      * @var 	object
      * @access  private
-     * @since 	1.0
+     * @since 	1.0.0
      */
     private static $_instance = null;
     /**
      * The token.
      * @var     string
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $token;
     /**
      * The version number.
      * @var     string
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $version;
     /**
      * The plugin directory URL.
      * @var     string
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $plugin_url;
     /**
      * The plugin directory path.
      * @var     string
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $plugin_path;
 
@@ -80,14 +80,14 @@ final class TecEsb {
      * The admin object.
      * @var     object
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $admin;
     /**
      * The settings object.
      * @var     object
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $settings;
 
@@ -95,7 +95,7 @@ final class TecEsb {
      * The post types we're registering.
      * @var     array
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $post_types = array();
 
@@ -103,7 +103,7 @@ final class TecEsb {
      * The plugin routes.
      * @var     string
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $routes;
 
@@ -111,7 +111,7 @@ final class TecEsb {
      * The plugin Text Domain.
      * @var     string
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $text_domain;
 
@@ -119,7 +119,7 @@ final class TecEsb {
      * The plugin tec settings.
      * @var     string
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $tec_settings;
 
@@ -127,21 +127,21 @@ final class TecEsb {
      * The plugin tec settings.
      * @var     string
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public $assets;
 
     /**
      * Constructor function.
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public function __construct () {
         define('TECSINGLE', 1);
         $this->token 			= 'TECESB';
         $this->plugin_url 		= plugin_dir_url( __FILE__ );
         $this->plugin_path 		= plugin_dir_path( __FILE__ );
-        $this->version 			= '1.0';
+        $this->version 			= '1.0.0';
         $this->tec_settings     = get_option('tec_esb_options');
         $this->assets           = $this->plugin_url . 'assets';
 
@@ -175,7 +175,7 @@ final class TecEsb {
      *
      * Ensures only one instance of TecEsb is loaded or can be loaded.
      *
-     * @since 1.0
+     * @since 1.0.0
      * @static
      * @see TecEsb()
      * @return Main TecEsb instance
@@ -189,7 +189,7 @@ final class TecEsb {
     /**
      * Load the localisation file.
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public function load_plugin_textdomain() {
         load_plugin_textdomain( 'tec-elementor-single-builder', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
@@ -220,25 +220,25 @@ final class TecEsb {
     /**
      * Cloning is forbidden.
      * @access public
-     * @since 1.0
+     * @since 1.0.0
      */
     public function __clone () {
-        _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?' ), '1.0' );
+        _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?' ), '1.0.0' );
     }
 
     /**
      * Unserializing instances of this class is forbidden.
      * @access public
-     * @since 1.0
+     * @since 1.0.0
      */
     public function __wakeup () {
-        _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?' ), '1.0' );
+        _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?' ), '1.0.0' );
     }
 
     /**
      * Installation. Runs on activation.
      * @access  public
-     * @since   1.0
+     * @since   1.0.0
      */
     public function install () {
         $this->_log_version_number();
@@ -247,7 +247,7 @@ final class TecEsb {
     /**
      * Log the plugin version number.
      * @access  private
-     * @since   1.0
+     * @since   1.0.0
      */
     private function _log_version_number () {
         update_option( $this->token . '-version', $this->version );
@@ -255,7 +255,7 @@ final class TecEsb {
 
 	/**
 	 * Custom Single Page
-	 * @since 1.0
+	 * @since 1.0.0
 	 * @access public
 	 */
 	public function tec_esb_custom_template($template_base_paths) {
@@ -267,7 +267,7 @@ final class TecEsb {
 
 	/**
 	 * Register Elementor Category
-	 * @since 1.0
+	 * @since 1.0.0
 	 * @access public
 	 */
 	public function tec_add_elementor_widget_categories( $elements_manager ){
@@ -285,7 +285,7 @@ final class TecEsb {
 	/**
 	 * Init Widgets
 	 * Include widgets files and register them
-	 * @since 1.0
+	 * @since 1.0.0
 	 * @access public
 	 */
 	public function init_widgets() {
@@ -308,8 +308,6 @@ final class TecEsb {
         require_once( $this->plugin_path . '/widgets/share.php' );
         require_once( $this->plugin_path . '/widgets/map.php' );
         require_once( $this->plugin_path . '/widgets/related.php' );
-        require_once( $this->plugin_path . '/widgets/rsvp.php' );
-        require_once( $this->plugin_path . '/widgets/ticket.php' );
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \TEC_Title() );
@@ -329,8 +327,6 @@ final class TecEsb {
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \TEC_Share() );
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \TEC_Map() );
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \TEC_Related() );
-        \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \TEC_RSVP() );
-        \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \TEC_Ticket() );
 
 	}
 
